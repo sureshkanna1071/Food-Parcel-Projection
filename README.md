@@ -1,5 +1,5 @@
 # Food-Parcel-Projection
-![Logo](https://i.ibb.co/0CgbnvF/Screenshot-53.png)
+![Logo](https://i.ibb.co/Jx1dQqY/Screenshot-53.jpg)
 ## Project Description
 - This project aims to develop a recommendation model and visual insights for startups who is planning to open a remote kitchen in Banglore by leveraging data scraped from the Zomato website. 
 
@@ -36,7 +36,7 @@ During the development of this project, we encountered several challenges:
 - **Model Performance and Optimization**: Despite our efforts, the machine learning model's performance in predicting ideal location remained suboptimal. Enhancing the model's predictive capabilities for better recommendations was an ongoing challenge that required further exploration.
 
 ## Dashboard
-![Dashboard](https://i.ibb.co/z8vMRzM/Screenshot-56.png)
+![Dashboard](https://i.ibb.co/MMDmwc2/Screenshot-56.jpg)
 
 ## Conclusion
 
