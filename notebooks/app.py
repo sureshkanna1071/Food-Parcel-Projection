@@ -1,4 +1,3 @@
-# app.py
 from flask import Flask, request, jsonify
 import pandas as pd
 import joblib
@@ -41,14 +40,12 @@ def predict():
             return jsonify({"message": "No restaurant found serving the specified cuisine"}), 404
 
         # if data["cuisine"] is not None and data["location"] is not None and data["price"] is not None:
-        # Encoding input for prediction (assuming the model and preprocessing steps from previous example)
+
         input_data = {'Location': [data["location"]], 'Cuisines': [data["cuisine"]]}
         input_df = pd.DataFrame(input_data)
         
-        # Ensure train_inputs or its equivalent is defined and contains the processed training data columns
         input_df_encoded = pd.get_dummies(input_df, drop_first=True).reindex(columns=model_data["train_inputs"].columns, fill_value=0)
 
-        # Predicting with Random Forest (assuming the Random Forest model is named as models['Random Forest'])
         predicted_price = model_data['model']['model']['model'].predict(input_df_encoded)[0]
 
         # Price suggestion
