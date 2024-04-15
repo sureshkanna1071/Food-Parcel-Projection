@@ -33,7 +33,7 @@ During the development of this project, we encountered several challenges:
 
 - **Machine Learning Model for Location Recommendations**: Developing a machine learning model to recommend optimal locations based on given inputs was a complex task. Improving models accuracy proved to be challenging.
 
-- **Model Performance and Optimization**: Despite our efforts, the machine learning model's performance in predicting ideal location remained suboptimal. Enhancing the model's predictive capabilities for better recommendations was an ongoing challenge that required further exploration.
+- **Model Performance and Optimization**: Enhancing the model's predictive capabilities for better recommendations was an ongoing challenge that required further exploration.
 
 ## Dashboard
 ![Dashboard](https://i.ibb.co/MMDmwc2/Screenshot-56.jpg)
@@ -48,4 +48,4 @@ The model developed for predicting the price for one person at a restaurant achi
 
 ### Location Recommendation Model
 
-However, the model responsible for recommending optimal locations for restaurants faced significant challenges and had a relatively low performance score of less than 10% accuracy. Despite our efforts to fine-tune and optimize the model, predicting suitable locations proved to be a complex task.
+However, predicting suitable locations proved to be a complex task.
